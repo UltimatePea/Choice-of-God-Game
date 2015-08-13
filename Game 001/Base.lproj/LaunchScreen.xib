@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thank you for downloading this app" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgv-OL-OZU">
+                    <rect key="frame" x="103" y="229" width="275" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="hhR-gX-xDI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choice of God" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hry-Ub-mXp">
+                    <rect key="frame" x="8" y="8" width="464" height="103"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="103" id="2JW-Fv-RCz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading resources..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xpm-N9-HMQ">
+                    <rect key="frame" x="316" y="451" width="156" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="WXj-rm-gOM">
+                    <rect key="frame" x="288" y="451" width="20" height="20"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="xpm-N9-HMQ" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailingMargin" id="3VJ-KF-UG4"/>
+                <constraint firstItem="hry-Ub-mXp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="3rK-vr-PFE"/>
+                <constraint firstItem="hry-Ub-mXp" firstAttribute="centerX" secondItem="jgv-OL-OZU" secondAttribute="centerX" id="AFB-Pg-pfy"/>
+                <constraint firstItem="WXj-rm-gOM" firstAttribute="centerY" secondItem="xpm-N9-HMQ" secondAttribute="centerY" id="Mg0-rd-nf7"/>
+                <constraint firstItem="xpm-N9-HMQ" firstAttribute="trailing" secondItem="hry-Ub-mXp" secondAttribute="trailing" id="N6R-zh-3m0"/>
+                <constraint firstItem="jgv-OL-OZU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="229" id="O2r-6M-wxk"/>
+                <constraint firstItem="xpm-N9-HMQ" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottomMargin" id="T3O-3H-3kv"/>
+                <constraint firstItem="WXj-rm-gOM" firstAttribute="top" secondItem="xpm-N9-HMQ" secondAttribute="top" id="ZwF-VD-gt7"/>
+                <constraint firstItem="xpm-N9-HMQ" firstAttribute="leading" secondItem="WXj-rm-gOM" secondAttribute="trailing" constant="8" symbolic="YES" id="b6V-9V-aRk"/>
+                <constraint firstItem="jgv-OL-OZU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="229" id="bWk-jT-DIz"/>
+                <constraint firstItem="hry-Ub-mXp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="topMargin" id="kmT-SM-JWj"/>
+                <constraint firstItem="jgv-OL-OZU" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="xSc-VM-p3H"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="O2r-6M-wxk"/>
+                    <exclude reference="xSc-VM-p3H"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+</document>
